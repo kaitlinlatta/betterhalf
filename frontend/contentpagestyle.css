@@ -1,0 +1,43 @@
+img {
+    width: 100%;
+    height: auto;
+  }
+
+body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: cornsilk;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.topnav a:hover {
+    color: peru;
+  }
+
+.topnav a.active {
+    color: darkgoldenrod;
+}
+
+.topnav a.home {
+    float: left;
+    color: midnightblue;
+}
+
+.content {
+    margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
