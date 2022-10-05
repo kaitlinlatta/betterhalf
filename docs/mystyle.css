@@ -14,6 +14,7 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    z-index: 0; /* Stacks TopNav on top of content */
 }
 
 .topnav a {
@@ -36,4 +37,20 @@ body {
 .topnav a.home {
     float: left;
     color: midnightblue;
+}
+
+.background-image {
+    position: relative;
+    z-index: -1;
+}
+
+.hero-info {
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    color: midnightblue;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
